@@ -23,9 +23,9 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = '9x%s)!$wcrok=^$jl#*+c!@(p$ur_3a!0ax$*o!thk*+zcw#)3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['horntobewild.pythonanywhere.com']
 
 
 # Application definition
